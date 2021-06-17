@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap');
+
+body{
+    font-family:'Montserrat', sans-serif;
+    background-color: rgb(197, 197, 197);
+   
+}
+.caixa{
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+}
+.hero-title{
+    color: antiquewhite;
+    font-size: 20px;
+    width: 100%;
+    height: px;
+    margin-top: 150px;
+    background-color: green;
+}
+.hero-picture{
+    border-end-end-radius: 20px;
+    margin: 30px;;
+
+}
