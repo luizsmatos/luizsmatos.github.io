@@ -1,50 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap');
 
 body{
+    margin: 0%;
+    padding: 0%;
     font-family:'Montserrat', sans-serif;
-    background-color: rgb(197, 197, 197);
+    background-color:rgba(8, 8, 8, 0.77);
+    font-weight: bold;
+}
+.home{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+		-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	   box-shadow:        4px 7px 5px rgba(50, 50, 50, 0.77);
+}
+nav.menu{
+  display: block;
+}
+nav.menu ul{
+   
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -18px;
+    left: -37px;
+}
+nav.menu li{
+  display: inline-block;
+  background-color: white;
+  padding: 24px 10px 24px ;
+}
+nav.menu a{
+  color: black;
+  text-decoration: none;
+}
+nav.menu a:hover{
+  -webkit-box-shadow:  0px 6px  15px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow:    -2px 7px  5px rgba(50, 50, 50, 0.77);
+   box-shadow:        -2px 1px -2px rgba(50, 50, 50, 0.77);
+   padding:30px 10px 30px ;
 }
 .caixa-hero{
-    background-color: #d8d8d4;
-    width: 700px;
-    height: 180px;
-    /* margin-left: 50px; */
-		-webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
-		-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
-		box-shadow:         4px 7px 5px rgba(50, 50, 50, 0.77);
-    border-radius: 10px;
-    overflow-y: scroll;
-  }
+  background-color:white;
+  width: 100%;
+  height: 180px;
+  /* margin-left: 50px; */
+  -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+   box-shadow:        4px 7px 5px rgba(50, 50, 50, 0.77);
+}
 
-.div_1{
-  position: absolute;
-  top: 100px;
-  left: 30%;
-}
-div.hero-title h1{
-  text-align: right;
-  margin-right: 20px;
-  font-size: 25px;  
-}
-div.hero-picture img{
-  position: absolute;
-  z-index: 1;
-  margin-left: 10px;
-  top: 22px;
-  border-radius: 10px;
-}
-div.text-desc h2 {
-  position: absolute;
-  z-index: 2;
-  margin-left: 100px;
-  top: 15px;
-  font-size: 20px;
-}
-div.text-desc p{
-  position: absolute;
-  z-index: 3;
-  top: 45px;
-  margin-left: 100px;
-  color: black;
-  
-}
+
+
+
+
