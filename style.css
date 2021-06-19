@@ -51,6 +51,23 @@ nav.menu a:hover{
    box-shadow:        4px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
+.hero-title{
+  width: 400px;
+  margin-bottom: 0px;
+  /* margin-left: 100px; */
+  padding-top: 10px;
+}
+
+.caixa-picture{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+}
+
+.hero-picture {
+  border-radius: 10px;
+  left: 15px;
+}
 
 
 
