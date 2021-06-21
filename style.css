@@ -23,7 +23,7 @@ nav.menu ul{
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: -18px;
+    top: -14px;
     left: -37px;
 }
 nav.menu li{
@@ -45,23 +45,21 @@ nav.menu a:hover{
   background-color:white;
   width: 100%;
   height: 180px;
-  /* margin-left: 50px; */
+  position: absolute;
+  z-index: 1;
+  top: 85px;
   -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
   -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
    box-shadow:        4px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
-.hero-title{
-  width: 400px;
-  margin-bottom: 0px;
-  /* margin-left: 100px; */
-  padding-top: 10px;
-}
-
 .caixa-picture{
   width: 100px;
   height: 100px;
-  margin-left: 20px;
+  position: absolute;
+  z-index: 2;
+  top: 121px;
+  left: 20px;
 }
 
 .hero-picture {
@@ -69,6 +67,63 @@ nav.menu a:hover{
   left: 15px;
 }
 
+.caixa-sobre{
+  position: absolute;
+  z-index: 3;
+  height: 160px;
+  width: 90%;
+  top: 110px;
+  left: 120px;
+}
 
+.hero-title {
+  margin: 0%;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
 
+.caixa-sobre h2{
+  margin: 0%;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
 
+.caixa-sobre p{
+  margin: 0%;
+}
+
+.caixa-hab{
+  background-color:white;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 280px;
+  -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+   box-shadow:        4px 7px 5px rgba(50, 50, 50, 0.77);
+}
+.caixa-hab h1{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.hab {
+
+  width: 40%;
+  height: 400px;
+  position: absolute;
+  z-index: 1;
+  top: 400px;
+  left: 10px;
+}
+
+.hab h2{
+  text-align: center;
+  left: 10px;
+}
+
+.hab ul{
+  /* text-align: center;
+  list-style: none;
+} */
